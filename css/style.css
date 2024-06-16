@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+.header-img {
+    width: 350px;
+    height: auto;
+}
+
+.recipe-button {
+    background-color: white;
+    font-size: 24px;
+}
