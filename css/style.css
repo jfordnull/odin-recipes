@@ -1,13 +1,66 @@
-header {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header-img {
-    width: 350px;
+.recipe-grid-container,
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    height: 200px;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    width: 9ch;
+}
+
+.github {
+    width: 3ch;
+}
+
+.github:hover {
+    opacity: 50%;
+}
+
+.logo {
+    width: 700px;
+}
+
+.recipe-grid {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-item {
+    width: 300px;
+    height: 350px;
+    background-color: bisque;
+}
+
+.recipe-photo {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
     height: auto;
 }
 
-.recipe-button {
-    background-color: white;
-    font-size: 24px;
+.recipe-item:hover {
+    opacity: 50%;
+}
+
+.recipe-name {
+    width: 50%;
+    margin-left: 20px;
+    height: auto;
 }
